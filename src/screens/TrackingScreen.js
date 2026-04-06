@@ -317,7 +317,7 @@ export default function TrackingScreen({ user, onLogout }) {
     await Location.startLocationUpdatesAsync(BACKGROUND_TASK, {
       accuracy: Location.Accuracy.BestForNavigation,
       timeInterval: GPS.GPS_INTERVAL_MOVING,
-      distanceInterval: 0,
+      distanceInterval: 3,
       showsBackgroundLocationIndicator: true,
       foregroundService: {
         notificationTitle: 'Live Tracking Active',
