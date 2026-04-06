@@ -3,8 +3,8 @@ export const BACKGROUND_TASK = 'background-location-task';
 export const STORAGE_KEY = 'activeUserId';
 
 export const GPS = {
-  MAX_ACCURACY: 100,
-  MAX_JUMP: 300,
+  MAX_ACCURACY: 150,
+  MAX_JUMP: 1000,
   MAX_SPEED: 80,
   MIN_MOVEMENT: 2,
   MIN_SPEED: 0.3,
@@ -12,5 +12,5 @@ export const GPS = {
   MIN_TIME_MS: 1000,
   STATIONARY_COUNT: 3,
   GPS_INTERVAL_MOVING: 2000,
-  GPS_INTERVAL_STATIONARY: 15000,
+  GPS_INTERVAL_STATIONARY: 12000,
 };
